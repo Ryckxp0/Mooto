@@ -1,70 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabrício Motoboy</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* CSS para o layout geral */
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #808080, #F8E68C); /* Fundo cinza para amarelo pastel */
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            padding-top: 20px;
-        }
-
-        /* CSS para a logo */
-        .logo {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-            max-width: 300px; /* Ajuste o tamanho máximo da logo */
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-top: 20px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-
-        a {
-            display: inline-block;
-            margin-top: 20px;
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2rem;
-        }
-
-        a:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fabrício Motoboy - Seu Motoboy de Confiança</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- Logo no topo -->
     <header>
-        <img src="logo.png" alt="Fabrício Motoboy" class="logo">
+        <nav>
+            <div class="logo">
+                <img src="Logo.png" alt="logo fabricio motoboy" class="Logo">
+            </div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Conteúdo principal -->
-    <section>
-        <h1>Bem-vindo ao site do Fabrício Motoboy</h1>
-        <p>Entrega rápida e segura para você!</p>
-        <a href="https://wa.me/554398667611" target="_blank">Fale com Fabrício no WhatsApp</a>
+    <section id="hero">
+        <h2>Entrega Rápida e Segura! Onde Você Precisar!</h2>
+        <p>Motoboy para transporte de pessoas e entregas rápidas em qualquer lugar da cidade.</p>
+        <a href="https://wa.me/554398667611" class="cta-button">fale com fabricio</a>
     </section>
+
+    <section id="sobre">
+        <h2>Sobre o Fabrício Motoboy</h2>
+        <p>Com anos de experiência, oferecemos um serviço de motoboy rápido, confiável e seguro para qualquer tipo de entrega ou transporte. Se você precisa ir para algum lugar, buscar itens ou até mesmo fazer uma entrega de última hora, estamos prontos para ajudar!</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="servico">
+            <h3>Transporte de Pessoas</h3>
+            <p>Leve sua viagem para qualquer lugar da cidade com segurança e rapidez. Seu destino é a nossa prioridade.</p>
+        </div>
+        <div class="servico">
+            <h3>Busca e Entrega de Itens</h3>
+            <p>Precisa de um item comprado em qualquer loja ou mercado? Nós vamos até o local e entregamos para você.</p>
+        </div>
+        <div class="servico">
+            <h3>Entrega de Mercado</h3>
+            <p>Pedidos do mercado? Não se preocupe, buscamos e entregamos tudo para sua casa, no menor tempo possível!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fabrício Motoboy - Todos os direitos reservados</p>
+        <p>Telefone: (XX) XXXX-XXXX | WhatsApp: (XX) XXXXX-XXXX</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
+
 </html>
