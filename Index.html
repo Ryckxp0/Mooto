@@ -4,116 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fabrício Motoboy</title>
+    <link rel="stylesheet" href="style.css">
     <style>
+        /* CSS para o layout geral */
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(180deg, #808080, #f0db4f);
+            background: linear-gradient(to bottom, #808080, #F8E68C); /* Fundo cinza para amarelo pastel */
             color: #333;
+            text-align: center;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #1a1a1a;
-            color: #f0db4f;
-            padding: 20px;
-            text-align: center;
+            padding-top: 20px;
         }
 
-        main {
-            padding: 20px;
+        /* CSS para a logo */
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 300px; /* Ajuste o tamanho máximo da logo */
         }
 
-        section {
-            margin-bottom: 20px;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
         }
 
-        h1, h2 {
-            color: #f0db4f;
-            margin: 0;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 10px;
+        p {
+            font-size: 1.2rem;
+            margin-top: 10px;
         }
 
         a {
-            color: #f0db4f;
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
             text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
         }
 
         a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            background-color: #1a1a1a;
-            color: #f0db4f;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-        /* Tornar o site responsivo */
-        @media (max-width: 768px) {
-            header, footer {
-                padding: 15px;
-            }
-            main {
-                padding: 10px;
-            }
-            section {
-                padding: 10px;
-            }
-            h1 {
-                font-size: 1.5em;
-            }
-            h2 {
-                font-size: 1.2em;
-            }
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
+    <!-- Logo no topo -->
     <header>
-        <h1>📦 Fabrício Motoboy 🚴‍♂️</h1>
+        <img src="logo.png" alt="Fabrício Motoboy" class="logo">
     </header>
-    <main>
-        <section>
-            <h2>💼 O que oferecemos:</h2>
-            <ul>
-                <li>Busco e entrego documentos e encomendas.</li>
-                <li>Faço compras no mercado e entrego em sua casa.</li>
-                <li>Serviço de Moto Táxi para te levar onde precisar.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>🔍 Por que escolher nosso serviço?</h2>
-            <ul>
-                <li>✅ Rápido e confiável</li>
-                <li>✅ Preços acessíveis</li>
-                <li>✅ Atendimento personalizado</li>
-            </ul>
-        </section>
-        <section>
-            <h2>📲 Entre em contato:</h2>
-            <p>WhatsApp: <a href="https://wa.me/554398667611" target="_blank">Clique aqui para falar agora</a></p>
-            <p>Telefone: +55 43 9866-7611</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 - Fabrício Motoboy</p>
-    </footer>
+
+    <!-- Conteúdo principal -->
+    <section>
+        <h1>Bem-vindo ao site do Fabrício Motoboy</h1>
+        <p>Entrega rápida e segura para você!</p>
+        <a href="https://wa.me/554398667611" target="_blank">Fale com Fabrício no WhatsApp</a>
+    </section>
 </body>
 </html>
