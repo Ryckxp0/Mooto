@@ -27,6 +27,7 @@ section {
 
 h1, h2 {
     color: #f0db4f;
+    margin: 0;
 }
 
 ul {
@@ -55,4 +56,23 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Tornar o site responsivo */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 15px;
+    }
+    main {
+        padding: 10px;
+    }
+    section {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
 }
